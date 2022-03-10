@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css">
+    <title>projet html</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+        <p>
+        <ul>
+            <li><a href="Accueil.html">Accueil</a></li>
+            <li><a href="madrid.html">Madrid</a></li>
+            <li><a href="barcelone.html">Barcelone</a></li>
+            <li><a href="seville.html">Seville</a></li>
+            <li><a href="cordoue.html">Cordoue</a></li>
+            <li><a href="bilbao.html">Bilbao</a></li>
+            <li class="active"><a href="inscription.html">Inscription</a></li>
+        </ul>
+        </p>
+        <h2>Formulaire d'inscription</h2>
+        <form action="">
+            <div class="field">
+                <label for="a">Nom:*</label>
+                <input type="text" name="nom" id="a" required autofocus>
+            </div>
+            <div class="field">
+                <label for="b">Prenom:*</label>
+                <input type="text" name="Prenom" id="b" required>
+            </div>
+            <div>
+                <label for="c">date de naissance:*</label>
+                <input type="date" name="date_de_naissance" id="c" required>
+            </div>
+            <div>
+                <label for="d">lieu de naissance:*</label>
+                <input type="text" name="lieu_de_naissance" id="d" required>
+            </div>
+            <div class="field">
+                <label for="e">Sexe:*</label>
+                M <input type="radio" name="sexe" value="M" checked>
+                F <input type="radio" name="sexe" value="F">
+            </div>
+            <div class="field">
+                <label for="f">Ville:*</label>
+                <select name="ville" id="f">
+                    <option value="1">Madrid</option>
+                    <option value="2">Barcelone</option>
+                    <option value="3">Seville</option>
+                    <option value="4">Cordoue</option>
+                    <option value="5">Bilbao</option>
+                </select>
+            </div>
+            <div class="field">
+                <label for="g">Addresse</label>
+                <input type="text" name="adressse" id="g" placeholder="saisissez votre Addresse N° parcelle,quartier et ville">
+            </div>
+            <div class="field">
+                <label for="h">tél.portable</label>
+                <input type="tel" name="tél_portable" id="h">
+            </div>
+            <div class="fiels">
+                <label for="i">Email*:</label>
+                <input type="email" name="email" id="i" required>
+            </div>
+            <div class="field">
+                <label for="j">confirmez l'Email*:</label>
+                <input type="email" name="confirmez_l'email" id="j" placeholder="Retaper votre Email" required>
+            </div>
+            <div>
+                <label for="n">*champs obligatoire</label>
+                <br>
+                <input type="reset" value="Rétablir" required>
+                <input type="submit" value="Envoyer" required>
+            </div>
+        </div>
+       
+
+
+    </header>
+</body>
+
+</html>
